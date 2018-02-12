@@ -1,7 +1,7 @@
 version: '2'
 services:
     jhipster-app:
-        image: jhipster
+        image: aria31/jhipster
         environment:
             - SPRING_PROFILES_ACTIVE=prod,swagger
             - SPRING_DATASOURCE_URL=jdbc:mariadb://jhipster-mariadb:3306/jhipster
